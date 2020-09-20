@@ -12,6 +12,12 @@
         android:layout_height="match_parent"
         android:visibility="gone" />
 
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="com.mindorks.framework.mvi.UsersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
